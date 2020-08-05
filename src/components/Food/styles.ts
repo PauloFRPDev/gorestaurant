@@ -8,6 +8,10 @@ export const Container = styled.div<IFoodPlateProps>`
   background: #f0f0f5;
   border-radius: 8px;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;
